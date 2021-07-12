@@ -147,8 +147,8 @@
   
     <div class="deposite ">
       <div class="deposite-head container">
-       <h2>Deposit Crypto</h2>
-    <a href="">Deposit Fiat <i class="fas fa-long-arrow-alt-right"></i></a>
+       <h2>Withdraw Crypto</h2>
+    <a href="">Withdraw  Fiat <i class="fas fa-long-arrow-alt-right"></i></a>
     </div>
    
     
@@ -164,8 +164,8 @@
       <div class="line-btw"></div>
       
     </div>
-    <h6>Copy address</h6>
-    <p>Choose the crypto and its network on this page, and copy the deposit address.</p>
+    <h6>Initiate a withdrawal</h6>
+    <p>Start a withdrawal request on Binance.</p>
   </div>
 
   <div  class="col-md-3">
@@ -174,8 +174,8 @@
       <div class="line-btw"></div>
       
     </div>
-    <h6>Initiate a withdrawal</h6>
-    <p>Initiate a withdrawal on the withdrawal platform.</p>
+    <h6>Get address</h6>
+    <p>Copy and paste the deposit address of the receiver.</p>
   </div>
 
 
@@ -188,7 +188,7 @@
       
     </div>
     <h6>Network confirmation</h6>
-    <p>Wait for the blockchain network to confirm your transfer.</p>
+    <p>Wait for withdrawal network confirmation.</p>
   </div>
 
  <div  class="col-md-3">
@@ -196,8 +196,8 @@
       <div class="instruction-num">4</div>
       
     </div>
-    <h6>Deposit successful</h6>
-    <p>After the network confirmation,  will credit the crypto for you.</p>
+    <h6>Deposit Successful</h6>
+    <p>Deposit successfully sent to receiver's address.</p>
   </div>
 
 
@@ -205,7 +205,8 @@
 </div>
 
 
-<h5 class="buy-crt">To buy crypto with fiat (USD. GBP, EUR), go to <a href="">Buy Crypto.</a></h5>
+<h5 class="buy-crt">This is the crypto withdrawal page. Click <a href="">here</a>  to withdraw cash to your bank account.
+</h5>
 
 
   </div>
@@ -215,14 +216,17 @@
 
 
   <div class="container">
-    <div class="coin-depsit">
+    <div class="coin-withdraw">
 
       <div class="select-coin">
         <h6>Select coin </h6>
         <div>
       <label>Coin</label>
       <div class="select-mune" data-toggle="modal" data-target="#exampleModalCenter2">
-        <p>Select Coin</p>
+        <div class="coin-slect-det">
+               <div class="coin-img"><img src="img/btc.png"> </div>
+               <h5>BTC</h5>
+               <h6>Bitcoin</h6></div>
         <p><i class="fas fa-sort-down"></i></p>
 
       </div>
@@ -235,8 +239,12 @@
 
 
       <div class="select-coin">
-        <h6>Deposit to </h6>
-        <div>
+        <h6>Withdraw to </h6>
+
+        <div >
+                <label>Address</label>
+                <input type="text" class="form-control" placeholder="Enter address here" name="">
+                <div>
       <label>Network</label>
       <div class="select-mune" data-toggle="modal" data-target="#exampleModalCenter3">
         <p>Select Coin</p>
@@ -245,17 +253,44 @@
       </div>
 
       </div>
-
-      </div>
-
-
-
-      <div class="memo">
-        <h5>Both Address and MEMO are required</h5>
-        <p>Please enter both MEMO and Address data, which are required to deposit  your  account.</p>
-        <a href="">Show Address </a>
+        </div>
         
+
       </div>
+
+
+      <div class="select-coin">
+        <h6>Withdraw amount </h6>
+
+        <div >
+                <label>Amount</label>
+                <input type="number" class="form-control" placeholder="Minimal 0.01" name="">
+          
+        </div>
+        
+
+      </div>
+
+
+
+      <div class="select-coin">
+        <h6>Recive Amount </h6>
+
+        <div class="balance-withdraw">
+          <div>
+               <h2>0.994300 BTC</h2>
+               <p>0.0057 BTC network fee included</p></div>
+               <a href="#">withdraw</a>
+          
+        </div>
+        
+
+      </div>
+
+      
+
+
+
 
 
       
@@ -287,7 +322,7 @@
         <div class="coin-list">
           <ul>
             <li>
-              <a href="" data="btc">
+              <a href="#btc" data="btc" data-dismiss="modal" >
               <div class="flex-list-c" ><img src="img/btc.png">
 
                 <div>
@@ -303,12 +338,12 @@
             </li>
 
             <li>
-              <a href="" >
-              <div class="flex-list-c" ><img src="img/btc.png">
+              <a href="" data='eth'>
+              <div class="flex-list-c" ><img src="img/3a8c9fe6-2a76-4ace-aa07-415d994de6f0.png">
 
                 <div>
-                  <h6>Bitcoin</h6>
-                  <p>BTC</p>
+                  <h6>Ethereum</h6>
+                  <p>ETH</p>
 
                 </div>
 
@@ -319,12 +354,12 @@
             </li>
 
             <li>
-              <a href="">
-              <div class="flex-list-c" ><img src="img/btc.png">
+              <a href="" data='usdt'>
+              <div class="flex-list-c" ><img src="img/1598080985825.png">
 
                 <div>
-                  <h6>Bitcoin</h6>
-                  <p>BTC</p>
+                  <h6>USDT</h6>
+                  <p>USD</p>
 
                 </div>
 
@@ -335,12 +370,12 @@
             </li>
 
             <li>
-              <a href="" >
-              <div class="flex-list-c" ><img src="img/btc.png">
+              <a href="" data='usdf'>
+              <div class="flex-list-c" ><img src="img/1597745140USDF256.png">
 
                 <div>
-                  <h6>Bitcoin</h6>
-                  <p>BTC</p>
+                  <h6>USDF</h6>
+                  <p>USDF</p>
 
                 </div>
 

@@ -141,341 +141,389 @@
 </nav>
 
 
-<div class="flex-wi">
-<div class="crypto-depo">
+
+<div class="main-flex">
+<div class="left-tab">
+  <ul>
+    <li ><a href=""><i class="fas fa-user"></i> Dashboard</a></li>
+        <li ><a href=""><i class="fas fa-wallet"></i> Wallet</a></li>
+
+    <li ><a href=""><i class="fas fa-wrench"></i> IEO</a></li>
+
+    <li><a href=""><i class="fas fa-money-check-alt"></i> Invest</a></li>
+
+    <li><a href=""><i class="fas fa-exchange-alt"></i> Spot Trade</a></li>
+
+    <li ><a href=""><i class="fas fa-retweet"></i> Swap</a></li>
+        <li ><a href=""><i class="fas fa-align-center"></i> Staking</a></li>
+    <li class="active"><a href=""><i class="fas fa-share"></i> Transaction</a></li>
+
+
+
+
+  </ul>
+
+</div>
+
+
+<div class="right-tab">
+
+
+  <div class="trasnaction ">
+    <h2>Transaction History</h2>
+    <div class="history-action">
+  
+  <a href="trans.html" class="active2">Deposit History</a>
+    <a href="#withdraw" class="withdraww" >Withdraw History</a>
+
+  <a href="#cancelled" class="cancelled">Cancelled Order</a>
+
+  <a href="#Complete" class="complete">Complete Order</a>
+
+  <a href="#Mining" class="mining">Mining  History</a>
+
+</div>
+  </div>
+
+
+
+
+
+    <div class=" trans-table">
+
+ 
+      <div class="invest-log table-responsive">
+
+
+        <div class="deposit display-">
+        <h6>Deposit History</h6>
+
+
+        
+
+
+
+         <table class="table ">
+  <thead>
+    <tr>
+      <th scope="col">Coin</th>
+      <th scope="col">Amount</th>
+      <th scope="col">Transaction ID</th>
+      <th scope="col">Confirmations </th>
+      <th scope="col">Created  </th>
+
+      <th scope="col">Status   </th>
+
+      
+
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+     <td>BTC</td>
+            <td>2.00</td>
+            <td>d258123s5s2d4d5</td>
+            <td>yes</td>
+            <td>yes</td>
+            <td>pending</td>
+
+
+
+    </tr>
+
+
+    <tr>
+     <td>BTC</td>
+            <td>2.00</td>
+            <td>d258123s5s2d4d5</td>
+            <td>yes</td>
+            <td>yes</td>
+            <td>pending</td>
+
+
+
+    </tr>
+
+  </tbody>
+</table>
+
+
+      </div>
+
+
+
+
+      <div class="Withdraw-div  nodisplay "  id="withdraw">
+        <h6>Withdraw  History</h6>
+
+
+       
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Currency</th>
+      <th scope="col">Date & Time </th>
+      <th scope="col">Send Amount</th>
+      <th scope="col">Fees </th>
+      <th scope="col">Receive Amount   </th>
+
+      <th scope="col">Transaction ID   </th>
+      <th scope="col">Status  </th>
+
+      
+
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+     <td>USD</td>
+            <td>15/5/2021 21:45</td>
+            <td>500$</td>
+            <td>5.00$</td>
+            <td>495$</td>
+            <td>f54d554545554d55</td>
+            <td>pending</td>
+
+
+
+    </tr>
+
+
+     <tr>
+     <td>USD</td>
+            <td>15/5/2021 21:45</td>
+            <td>500$</td>
+            <td>5.00$</td>
+            <td>495$</td>
+            <td>f54d554545554d55</td>
+            <td>pending</td>
+
+
+
+    </tr>
+
+  </tbody>
+</table>
+
+
+
+
+      </div>
+
+
+
+
+      <div class="cancelled-div  nodisplay" id="cancelled">
+        <h6>Cancelled Trade History</h6>
+
+
+        <table class="table ">
+  <thead>
+    <tr>
+      <th scope="col">Order On  </th>
+      <th scope="col">Symbol </th>
+      <th scope="col">Bid Type  </th>
+      <th scope="col">Price  </th>
+      <th scope="col">Quantity   </th>
+
+      <th scope="col">Total Amount    </th>
+      <th scope="col">Amount Available  </th>
+
+      
+
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+     <td>#5535</td>
+            <td>BTC</td>
+            <td>500$</td>
+            <td>5.00$</td>
+            <td>495$</td>
+            <td>f54d554545554d55</td>
+            <td>pending</td>
+
+
+
+    </tr>
+
+
+    <tr>
+     <td>#5535</td>
+            <td>BTC</td>
+            <td>500$</td>
+            <td>5.00$</td>
+            <td>495$</td>
+            <td>f54d554545554d55</td>
+            <td>pending</td>
+
+
+
+    </tr>
+
+  </tbody>
+</table>
+      </div>
+
+
+
+
+
+       <div class="complete-div  nodisplay" id="Complete">
+        <h6>Complete Trade History</h6>
+
+
+        
+
+
+
+
+         <table class="table ">
+  <thead>
+    <tr>
+      <th scope="col">Order On  </th>
+      <th scope="col">Symbol </th>
+      <th scope="col">Bid Type  </th>
+      <th scope="col">Price  </th>
+      <th scope="col">Quantity   </th>
+
+      <th scope="col">Total Amount    </th>
+      <th scope="col">Amount Available  </th>
+
+      
+
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+     <td>#5535</td>
+            <td>BTC</td>
+            <td>500$</td>
+            <td>5.00$</td>
+            <td>495$</td>
+            <td>f54d554545554d55</td>
+            <td>pending</td>
+
+
+
+    </tr>
+
+
+     <tr>
+     <td>USD</td>
+            <td>15/5/2021 21:45</td>
+            <td>500$</td>
+            <td>5.00$</td>
+            <td>495$</td>
+            <td>f54d554545554d55</td>
+            <td>pending</td>
+
+
+
+    </tr>
+
+  </tbody>
+</table>
+      </div>
+
+
+
+
+
+      <div class="mining-div  nodisplay"  id="Mining">
+        <h6>Mining Transaction History</h6>
+
+
+      
+
+         <table class="table ">
+  <thead>
+    <tr>
+      <th scope="col">Ref. ID   </th>
+      <th scope="col">Payment Method </th>
+      <th scope="col">TH Value    </th>
+      <th scope="col">Investment EUR   </th>
+      <th scope="col">Maintenance Fee    </th>
+      <th scope="col">Maintenance Fee BTC    </th>
+
+      <th scope="col">Investment BTC     </th>
+      <th scope="col">Daily Profit       </th>
+      <th scope="col">Status   </th>
+      <th scope="col">Expiry Date   </th>
+
+      
+
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+     <td>5584</td>
+            <td>credit card</td>
+            <td>500$</td>
+            <td>5.00$</td>
+            <td>495$</td>
+            <td>5 BTC</td>
+            <td>0.2 BTC</td>
+            <td>1.02 %</td>
+            <td>Pendding</td>
+            <td>21/05/2021</td>
+
+
+
+    </tr>
+
+
+     <tr>
+     <td>5584</td>
+            <td>credit card</td>
+            <td>500$</td>
+            <td>5.00$</td>
+            <td>495$</td>
+            <td>5 BTC</td>
+            <td>0.2 BTC</td>
+            <td>1.02 %</td>
+            <td>Pendding</td>
+            <td>21/05/2021</td>
+
+
+    </tr>
+
+  </tbody>
+</table>
+      </div>
+
+
+
+
+
+        
+
+
+      </div>
+
+     
+      
+
+
+    </div>
+
+
 
   
-    <div class="deposite ">
-      <div class="deposite-head container">
-       <h2>Deposit Crypto</h2>
-    <a href="">Deposit Fiat <i class="fas fa-long-arrow-alt-right"></i></a>
-    </div>
-   
-    
 
-  </div>
-
-  <div class="tips-depos container">
-    
-<div class="inside-crypto ">
-  <div class="col-md-3">
-    <div class="ins-num">
-      <div class="instruction-num">1</div>
-      <div class="line-btw"></div>
-      
-    </div>
-    <h6>Copy address</h6>
-    <p>Choose the crypto and its network on this page, and copy the deposit address.</p>
-  </div>
-
-  <div  class="col-md-3">
-    <div class="ins-num">
-      <div class="instruction-num">2</div>
-      <div class="line-btw"></div>
-      
-    </div>
-    <h6>Initiate a withdrawal</h6>
-    <p>Initiate a withdrawal on the withdrawal platform.</p>
-  </div>
-
-
-
-  <div  class="col-md-3">
-
-    <div class="ins-num">
-      <div class="instruction-num">3</div>
-      <div class="line-btw"></div>
-      
-    </div>
-    <h6>Network confirmation</h6>
-    <p>Wait for the blockchain network to confirm your transfer.</p>
-  </div>
-
- <div  class="col-md-3">
-  <div class="ins-num">
-      <div class="instruction-num">4</div>
-      
-    </div>
-    <h6>Deposit successful</h6>
-    <p>After the network confirmation,  will credit the crypto for you.</p>
-  </div>
-
-
-  
-</div>
-
-
-<h5 class="buy-crt">To buy crypto with fiat (USD. GBP, EUR), go to <a href="">Buy Crypto.</a></h5>
-
-
-  </div>
-
-
-
-
-
-  <div class="container">
-    <div class="coin-depsit">
-
-      <div class="select-coin">
-        <h6>Select coin </h6>
-        <div>
-      <label>Coin</label>
-      <div class="select-mune" data-toggle="modal" data-target="#exampleModalCenter2">
-        <p>Select Coin</p>
-        <p><i class="fas fa-sort-down"></i></p>
-
-      </div>
-
-      </div>
-
-      </div>
-
-
-
-
-      <div class="select-coin">
-        <h6>Deposit to </h6>
-        <div>
-      <label>Network</label>
-      <div class="select-mune" data-toggle="modal" data-target="#exampleModalCenter3">
-        <p>Select Coin</p>
-        <p><i class="fas fa-sort-down"></i></p>
-
-      </div>
-
-      </div>
-
-      </div>
-
-
-
-      <div class="memo">
-        <h5>Both Address and MEMO are required</h5>
-        <p>Please enter both MEMO and Address data, which are required to deposit  your  account.</p>
-        <a href="">Show Address </a>
-        
-      </div>
-
-
-      
-    </div>
-    
-
-  </div>
-
-
-
-
-
-
-<!-- Modal -->
-
-<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Select coin to deposit</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-          <div class="coin-serch-input">
-        <input type="text" class="form-control" name="" placeholder="Search coin name">
-        </div>
-        <div class="coin-list">
-          <ul>
-            <li>
-              <a href="" data="btc">
-              <div class="flex-list-c" ><img src="img/btc.png">
-
-                <div>
-                  <h6>Bitcoin</h6>
-                  <p>BTC</p>
-
-                </div>
-
-              </div>
-            </a>
-
-
-            </li>
-
-            <li>
-              <a href="" >
-              <div class="flex-list-c" ><img src="img/btc.png">
 
-                <div>
-                  <h6>Bitcoin</h6>
-                  <p>BTC</p>
 
-                </div>
 
-              </div>
-            </a>
 
 
-            </li>
 
-            <li>
-              <a href="">
-              <div class="flex-list-c" ><img src="img/btc.png">
-
-                <div>
-                  <h6>Bitcoin</h6>
-                  <p>BTC</p>
-
-                </div>
-
-              </div>
-            </a>
-
-
-            </li>
-
-            <li>
-              <a href="" >
-              <div class="flex-list-c" ><img src="img/btc.png">
-
-                <div>
-                  <h6>Bitcoin</h6>
-                  <p>BTC</p>
-
-                </div>
-
-              </div>
-            </a>
-
-
-            </li>
-          </ul>
-
-        </div>
-     
-
-     
-    
-      </div>
-      <div class="modal-footer">
-        
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-<!-- Modal -->
-
-<div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Select network</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body network">
-          <div class="coin-serch-input">
-        <p>
-          Ensure the network you choose to deposit matches the withdrawal network, or assets may be lost.
-
-        </p>
-        </div>
-        <div class="coin-list">
-          <ul>
-            <li>
-              <a href="" data="btc">
-              <div class="flex-list-c" >
-                <div class="bep"><h6>BEP2</h6>
-                <p>Binance Chain (BNB)</p>
-              </div>
-
-                
-
-                <div class="avg">
-                  <p>Avg. arrival time</p>
-                  <p>≈ 2 minutes</p>
-
-                </div>
-
-              </div>
-            </a>
-
-
-            </li>
-
-             <li>
-              <a href="" data="btc">
-              <div class="flex-list-c" >
-                <div class="bep"><h6>BEP2</h6>
-                <p>Binance Chain (BNB)</p>
-              </div>
-
-                
-
-                <div class="avg">
-                  <p>Avg. arrival time</p>
-                  <p>≈ 2 minutes</p>
-
-                </div>
-
-              </div>
-            </a>
-
-
-            </li>
-
-
-
-
-             <li>
-              <a href="" data="btc">
-              <div class="flex-list-c" >
-                <div class="bep"><h6>BEP2</h6>
-                <p>Binance Chain (BNB)</p>
-              </div>
-
-                
-
-                <div class="avg">
-                  <p>Avg. arrival time</p>
-                  <p>≈ 2 minutes</p>
-
-                </div>
-
-              </div>
-            </a>
-
-
-            
-          </ul>
-
-        </div>
-     
-
-     
-    
-      </div>
-      <div class="modal-footer">
-        
-      </div>
-    </div>
   </div>
-</div>
-
-
-
-
 
 
 
@@ -486,9 +534,6 @@
 
 </div>
 
-</div>
-
-  
 
 
 <footer>
